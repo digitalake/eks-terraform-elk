@@ -6,7 +6,7 @@ This repo contains:
 - Helm values for `ELK stack` + `Filebeat` for deploying loging solution to the cluster
 
 ### Terraform, EKS
-`
+
 In thise particular task, the EKS managed node group is used. For using `gp2` StorageClass volumes, I needed to add `ebs-csi-driver`, so my addons are:
 
 - Kube-proxy
